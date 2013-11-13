@@ -1,7 +1,8 @@
 . ~/.bashrc
 
 
-alias ll='ls -l --color=auto'
+alias ls='ls --color=auto'
+alias ll='ls -lh'
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias psgrep='ps -ef|grep'
