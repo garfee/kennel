@@ -1,12 +1,10 @@
 . ~/.bashrc
 
-
 alias ls='ls --color=auto'
 alias ll='ls -lh'
 alias grep='grep --color'
 alias egrep='egrep --color'
 alias psgrep='ps -ef|grep'
-
 
 export EDITOR=vim
 export PATH=$PATH:~/.kennel/bin
