@@ -10,7 +10,7 @@ install
 * git clone git@github.com:garfee/kennel.git
 * mv kennel ~/.kennel
 * ~/.kennel/init.sh
-* . ~/.kennel/.bashrc
+* add `. ~/.kennel/.bashrc` to ~/.bashrc
 
 usage
 -----
