@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#echo $1
+
+CUSTOM_BASH=.kennel/.bashrc
+
+ssh -t $1.mzhen.cn " \
+if [ ! -e $CUSTOM_BASH ];then  \
+    rm -rf .kennel ; \
+    svn co https://github.com/garfee/kennel/trunk .kennel; \
+    .kennel/init.sh; \
+fi; \
+cd .kennel; \
+svn up; \
+cd ..; \
+bash --rcfile $CUSTOM_BASH; \
+"
+
