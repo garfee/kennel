@@ -10,6 +10,9 @@ if [ ! -e $CUSTOM_BASH ];then  \
     svn co https://github.com/garfee/kennel/trunk .kennel; \
     .kennel/init.sh; \
 fi; \
+cd .kennel; \
+svn up; \
+cd .. ; \
 bash --rcfile $CUSTOM_BASH; \
 "
 
