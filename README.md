@@ -15,4 +15,4 @@ mv kennel ~/.kennel
 usage
 -----
 
-dl host
+kssh host
