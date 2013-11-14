@@ -3,5 +3,5 @@
 if [ ! -h ~/.vimrc ]
 then
     rm -f ~/.vimrc
-    ln -s .vimrc ~/.vimrc
+    ln -s ~/.kennel/.vimrc ~/.vimrc
 fi

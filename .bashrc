@@ -10,3 +10,4 @@ PS1='[\h:\W]\$ '
 export EDITOR=vim
 export PATH=$PATH:~/.kennel/bin
 export TERM=konsole-16color
+export LANG=en_US.UTF8
